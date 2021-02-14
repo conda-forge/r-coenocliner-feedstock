@@ -5,11 +5,9 @@ Home: https://github.com/gavinsimpson/coenocliner/
 
 Package license: GPL-2
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-coenocliner-feedstock/blob/master/LICENSE.txt)
 
 Summary: Simulate species occurrence and abundances (counts) along gradients.
-
-
 
 Current build status
 ====================
