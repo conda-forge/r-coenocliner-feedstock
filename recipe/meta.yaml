@@ -1,4 +1,4 @@
-{% set version = "0.2-3" %}
+{% set version = "0.2-4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/coenocliner_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/coenocliner/coenocliner_{{ version }}.tar.gz
-  sha256: 05dda9727e456cd7c1cc28823d9efec024491386e1b2ab07a2415a827c9a111e
+  sha256: 548352f1a8803a3bc8ae28d1b04ffa294ab225d396baa34d4e1180af839de0aa
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
